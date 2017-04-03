@@ -223,7 +223,7 @@ sorted_tup = sorted(tup, key = lambda x: x[0])
 real_tup = sorted(sorted_tup, key = lambda x: x[1], reverse = True)
 #print (real_tup)
 most_common_char = real_tup[0][0]
-print (most_common_char)
+#print (most_common_char)
 
 ## Putting it all together...
 # Write code to create a dictionary whose keys are Twitter screen names and whose associated values are lists of tweet texts that that user posted. You may need to make additional queries to your database! To do this, you can use, and must use at least one of: the DefaultDict container in the collections library, a dictionary comprehension, list comprehension(s). Y
